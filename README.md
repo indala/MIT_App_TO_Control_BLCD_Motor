@@ -14,15 +14,15 @@ MIT App to Control BLDC Motor using NodeMCU, where users can adjust motor speed 
 3. The app sends the speed command to the NodeMCU via HTTP. Example URL: `http://192.168.4.1/?State=5` for 50% motor speed.
 4. The NodeMCU processes the command and adjusts the motor speed accordingly.
 
-![Wi-Fi Mode](https://github.com/indala/MIT_App_TO_Control_BLDC_Motor/images/wifi_mode.jpg)
+![Wi-Fi Mode](https://github.com/indala/MIT_App_TO_Control_BLCD_Motor/blob/main/images/wifi_mode.jpg)
 
-## Bluetooth Mode (HC-05 with Arduino):
+## Bluetooth Mode (HC-05 with Arduino):wifi_mode.jpg
 1. Pair your mobile device with the Arduino via Bluetooth (HC-05 module).
 2. Open the app and select Bluetooth mode to control the motor speed.
 3. Send the motor speed value via Bluetooth to the Arduino, and it will adjust the motor speed accordingly.
 4. Bluetooth communication allows for wireless control within a limited range.
 
-![Bluetooth Mode](https://github.com/indala/MIT_App_TO_Control_BLDC_Motor/images/bluetooth_mode.jpg)
+![Bluetooth Mode](https://github.com/indala/MIT_App_TO_Control_BLCD_Motor/blob/main/images/bluetooth_mode.png)
 
 ## Requirements:
 - **Hardware**: NodeMCU (ESP8266) for Wi-Fi control, Arduino for Bluetooth control, BLDC motor, ESC (Electronic Speed Controller), HC-05 Bluetooth module.
